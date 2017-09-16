@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#F9FB"
+    tools:context="com.example.yusuph.javadevelopers.Main2Activity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="189dp"
+        android:id="@+id/imageView"
+        />
+    <TextView
+    android:text="Username:"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView"
+
+        />
+    <TextView
+       android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:textSize="30sp"
+        android:text="Uncletea"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/textView1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="github Url:"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/textView2"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textSize="23sp"
+        android:textColor="@color/colorPrimary"
+        android:text=""
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/textView3"
+        />
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="Share"
+        android:layout_width="match_parent"
+        android:id="@+id/share"
+
+        />
+</LinearLayout>
