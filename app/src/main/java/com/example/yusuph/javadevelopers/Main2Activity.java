@@ -38,7 +38,7 @@ public class Main2Activity extends AppCompatActivity {
         tvv.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://www.github.com")));
+       //         startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://www.github.com")));
             }
         });
 
